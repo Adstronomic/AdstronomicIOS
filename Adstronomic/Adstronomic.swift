@@ -15,6 +15,7 @@ public class Adstronomic {
     
     private static var api: String = ""
     private static var campaignId: String = ""
+    private static var viewController: UIViewController = UIViewController()
     
     private static var bannerAdObject: AdObject = AdObject.empty()
     private static var bannerAdImage: UIImage = UIImage()
@@ -35,6 +36,8 @@ public class Adstronomic {
         if(Config.version == "1.0.0") {
             self.api = Config.link
             self.campaignId = campaignId
+            self.viewController = viewController
+
             self.interstitialViewController = viewController
             self.rewardedViewController = viewController
             
@@ -50,7 +53,7 @@ public class Adstronomic {
     
     public static func loadBanner(imageView: UIImageView) {
         if(self.bannerAdObject.advertiserCampaignId != "") {
-            self.adVisualized(adType: AdEnum.Banner, advertiserCampaignId: self.bannerAdObject.advertiserCampaignId)
+            self.adVisualized(adEnum: AdEnum.Banner, advertiserCampaignId: self.bannerAdObject.advertiserCampaignId)
             
             DispatchQueue.main.async {
                 imageView.image = self.bannerAdImage
@@ -100,14 +103,18 @@ public class Adstronomic {
     
     public static func loadInterstitial() {
         if(self.interstitialAdObject.advertiserCampaignId != "") {
-            self.adVisualized(adType: AdEnum.Interstitial, advertiserCampaignId: self.interstitialAdObject.advertiserCampaignId)
+            self.adVisualized(adEnum: AdEnum.Interstitial, advertiserCampaignId: self.interstitialAdObject.advertiserCampaignId)
             
             let playerViewController = InterstitialController()
             playerViewController.player = self.interstitialPlayer
+            playerViewController.showsPlaybackControls = false
 
-            self.interstitialViewController.present(playerViewController, animated: true) {
-                self.interstitialPlayer.play()
-            }
+            self.interstitialViewController = self.viewController
+            self.interstitialViewController.addChild(playerViewController)
+            self.interstitialViewController.view.addSubview(playerViewController.view)
+            self.interstitialPlayer.play()
+
+            self.interstitialViewController.view.addSubview(Close(playerViewController: playerViewController))
 
             fetchInterstitial()
         } else {
@@ -144,14 +151,18 @@ public class Adstronomic {
 
     public static func loadRewarded() {
         if(self.rewardedAdObject.advertiserCampaignId != "") {
-            self.adVisualized(adType: AdEnum.Rewarded, advertiserCampaignId: self.rewardedAdObject.advertiserCampaignId)
-
+            self.adVisualized(adEnum: AdEnum.Rewarded, advertiserCampaignId: self.rewardedAdObject.advertiserCampaignId)
+            
             let playerViewController = RewardedController()
             playerViewController.player = self.rewardedPlayer
+            playerViewController.showsPlaybackControls = false
 
-            self.rewardedViewController.present(playerViewController, animated: true) {
-                self.rewardedPlayer.play()
-            }
+            self.rewardedViewController = self.viewController
+            self.rewardedViewController.addChild(playerViewController)
+            self.rewardedViewController.view.addSubview(playerViewController.view)
+            self.rewardedPlayer.play()
+
+            self.rewardedViewController.view.addSubview(Close(playerViewController: playerViewController))
 
             fetchRewarded()
         } else {
@@ -186,8 +197,8 @@ public class Adstronomic {
         }
     }
 
-    private static func adVisualized(adType: AdEnum, advertiserCampaignId: String) {
-        let link = self.api + "adVisualized?adType=" + adType.get + "&publisherCampaignId=" + self.campaignId + "&advertiserCampaignId=" + advertiserCampaignId
+    private static func adVisualized(adEnum: AdEnum, advertiserCampaignId: String) {
+        let link = self.api + "adVisualized?adType=" + adEnum.get + "&publisherCampaignId=" + self.campaignId + "&advertiserCampaignId=" + advertiserCampaignId
 
         if let url = URL(string: link) {
             URLSession.shared.dataTask(with: url).resume()

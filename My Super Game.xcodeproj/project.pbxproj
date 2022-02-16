@@ -7,41 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F14231E2785DCA7000E293E /* AdEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14231D2785DCA7000E293E /* AdEnum.swift */; };
-		3F44207B277CB0A3002B730D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F44207A277CB0A3002B730D /* Config.swift */; };
-		3F442081277CC1C4002B730D /* InterstitialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F442080277CC1C4002B730D /* InterstitialController.swift */; };
-		3F442087277CCA08002B730D /* RewardedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F442086277CCA08002B730D /* RewardedController.swift */; };
-		3F44208A277CCE92002B730D /* Adstronomic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F442089277CCE92002B730D /* Adstronomic.jpg */; };
-		3FFC14292779DC20000FC58A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC14282779DC20000FC58A /* AppDelegate.swift */; };
-		3FFC142B2779DC20000FC58A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC142A2779DC20000FC58A /* SceneDelegate.swift */; };
-		3FFC142D2779DC20000FC58A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC142C2779DC20000FC58A /* ViewController.swift */; };
-		3FFC14302779DC20000FC58A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC142E2779DC20000FC58A /* Main.storyboard */; };
-		3FFC14322779DC21000FC58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC14312779DC21000FC58A /* Assets.xcassets */; };
-		3FFC14352779DC21000FC58A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC14332779DC21000FC58A /* LaunchScreen.storyboard */; };
-		3FFC143D2779DC57000FC58A /* Adstronomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC143C2779DC57000FC58A /* Adstronomic.swift */; };
-		3FFC14402779EAB3000FC58A /* AdObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC143F2779EAB3000FC58A /* AdObject.swift */; };
+		3F0EC10027BBC51900331700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC0FF27BBC51900331700 /* AppDelegate.swift */; };
+		3F0EC10227BBC51900331700 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC10127BBC51900331700 /* SceneDelegate.swift */; };
+		3F0EC10427BBC51900331700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC10327BBC51900331700 /* ViewController.swift */; };
+		3F0EC10727BBC51900331700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0EC10527BBC51900331700 /* Main.storyboard */; };
+		3F0EC10927BBC51A00331700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0EC10827BBC51A00331700 /* Assets.xcassets */; };
+		3F0EC10C27BBC51A00331700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0EC10A27BBC51A00331700 /* LaunchScreen.storyboard */; };
+		3F0EC11727BBC51A00331700 /* My_Super_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC11627BBC51A00331700 /* My_Super_GameTests.swift */; };
+		3F0EC12127BBC51A00331700 /* My_Super_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC12027BBC51A00331700 /* My_Super_GameUITests.swift */; };
+		3F0EC12327BBC51A00331700 /* My_Super_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC12227BBC51A00331700 /* My_Super_GameUITestsLaunchTests.swift */; };
+		3F0EC13627BBC57700331700 /* RewardedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC13027BBC57700331700 /* RewardedController.swift */; };
+		3F0EC13727BBC57700331700 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC13127BBC57700331700 /* Config.swift */; };
+		3F0EC13827BBC57700331700 /* Adstronomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC13227BBC57700331700 /* Adstronomic.swift */; };
+		3F0EC13927BBC57700331700 /* InterstitialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC13327BBC57700331700 /* InterstitialController.swift */; };
+		3F0EC13A27BBC57700331700 /* AdObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC13427BBC57700331700 /* AdObject.swift */; };
+		3F0EC13B27BBC57700331700 /* AdEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EC13527BBC57700331700 /* AdEnum.swift */; };
+		3F22DB6A27BD8FB000D05292 /* Close.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22DB6927BD8FB000D05292 /* Close.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3F0EC11327BBC51A00331700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0EC0F427BBC51900331700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0EC0FB27BBC51900331700;
+			remoteInfo = "My Super Game";
+		};
+		3F0EC11D27BBC51A00331700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0EC0F427BBC51900331700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0EC0FB27BBC51900331700;
+			remoteInfo = "My Super Game";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		3F14231D2785DCA7000E293E /* AdEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdEnum.swift; sourceTree = "<group>"; };
-		3F44207A277CB0A3002B730D /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		3F442080277CC1C4002B730D /* InterstitialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialController.swift; sourceTree = "<group>"; };
-		3F442086277CCA08002B730D /* RewardedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedController.swift; sourceTree = "<group>"; };
-		3F442089277CCE92002B730D /* Adstronomic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Adstronomic.jpg; sourceTree = "<group>"; };
-		3FFC14252779DC20000FC58A /* My Super Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Super Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FFC14282779DC20000FC58A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FFC142A2779DC20000FC58A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FFC142C2779DC20000FC58A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FFC142F2779DC20000FC58A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FFC14312779DC21000FC58A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FFC14342779DC21000FC58A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3FFC14362779DC21000FC58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FFC143C2779DC57000FC58A /* Adstronomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adstronomic.swift; sourceTree = "<group>"; };
-		3FFC143F2779EAB3000FC58A /* AdObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdObject.swift; sourceTree = "<group>"; };
+		3F0EC0FC27BBC51900331700 /* My Super Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Super Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0EC0FF27BBC51900331700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F0EC10127BBC51900331700 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F0EC10327BBC51900331700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0EC10627BBC51900331700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0EC10827BBC51A00331700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0EC10B27BBC51A00331700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0EC10D27BBC51A00331700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0EC11227BBC51A00331700 /* My Super GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Super GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0EC11627BBC51A00331700 /* My_Super_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Super_GameTests.swift; sourceTree = "<group>"; };
+		3F0EC11C27BBC51A00331700 /* My Super GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Super GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0EC12027BBC51A00331700 /* My_Super_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Super_GameUITests.swift; sourceTree = "<group>"; };
+		3F0EC12227BBC51A00331700 /* My_Super_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Super_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F0EC13027BBC57700331700 /* RewardedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardedController.swift; sourceTree = "<group>"; };
+		3F0EC13127BBC57700331700 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		3F0EC13227BBC57700331700 /* Adstronomic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adstronomic.swift; sourceTree = "<group>"; };
+		3F0EC13327BBC57700331700 /* InterstitialController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialController.swift; sourceTree = "<group>"; };
+		3F0EC13427BBC57700331700 /* AdObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdObject.swift; sourceTree = "<group>"; };
+		3F0EC13527BBC57700331700 /* AdEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdEnum.swift; sourceTree = "<group>"; };
+		3F22DB6927BD8FB000D05292 /* Close.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Close.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FFC14222779DC20000FC58A /* Frameworks */ = {
+		3F0EC0F927BBC51900331700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EC10F27BBC51A00331700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EC11927BBC51A00331700 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,55 +90,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F442088277CCE77002B730D /* Resources */ = {
+		3F0EC0F327BBC51900331700 = {
 			isa = PBXGroup;
 			children = (
-				3F442089277CCE92002B730D /* Adstronomic.jpg */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		3FFC141C2779DC20000FC58A = {
-			isa = PBXGroup;
-			children = (
-				3FFC14272779DC20000FC58A /* My Super Game */,
-				3FFC14262779DC20000FC58A /* Products */,
+				3F0EC12F27BBC56200331700 /* Adstronomic */,
+				3F0EC0FE27BBC51900331700 /* My Super Game */,
+				3F0EC11527BBC51A00331700 /* My Super GameTests */,
+				3F0EC11F27BBC51A00331700 /* My Super GameUITests */,
+				3F0EC0FD27BBC51900331700 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3FFC14262779DC20000FC58A /* Products */ = {
+		3F0EC0FD27BBC51900331700 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FFC14252779DC20000FC58A /* My Super Game.app */,
+				3F0EC0FC27BBC51900331700 /* My Super Game.app */,
+				3F0EC11227BBC51A00331700 /* My Super GameTests.xctest */,
+				3F0EC11C27BBC51A00331700 /* My Super GameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FFC14272779DC20000FC58A /* My Super Game */ = {
+		3F0EC0FE27BBC51900331700 /* My Super Game */ = {
 			isa = PBXGroup;
 			children = (
-				3F442088277CCE77002B730D /* Resources */,
-				3FFC143E2779DC5D000FC58A /* Adstronomic */,
-				3FFC14282779DC20000FC58A /* AppDelegate.swift */,
-				3FFC142A2779DC20000FC58A /* SceneDelegate.swift */,
-				3FFC142C2779DC20000FC58A /* ViewController.swift */,
-				3FFC142E2779DC20000FC58A /* Main.storyboard */,
-				3FFC14312779DC21000FC58A /* Assets.xcassets */,
-				3FFC14332779DC21000FC58A /* LaunchScreen.storyboard */,
-				3FFC14362779DC21000FC58A /* Info.plist */,
+				3F0EC0FF27BBC51900331700 /* AppDelegate.swift */,
+				3F0EC10127BBC51900331700 /* SceneDelegate.swift */,
+				3F0EC10327BBC51900331700 /* ViewController.swift */,
+				3F0EC10527BBC51900331700 /* Main.storyboard */,
+				3F0EC10827BBC51A00331700 /* Assets.xcassets */,
+				3F0EC10A27BBC51A00331700 /* LaunchScreen.storyboard */,
+				3F0EC10D27BBC51A00331700 /* Info.plist */,
 			);
 			path = "My Super Game";
 			sourceTree = "<group>";
 		};
-		3FFC143E2779DC5D000FC58A /* Adstronomic */ = {
+		3F0EC11527BBC51A00331700 /* My Super GameTests */ = {
 			isa = PBXGroup;
 			children = (
-				3FFC143C2779DC57000FC58A /* Adstronomic.swift */,
-				3F14231D2785DCA7000E293E /* AdEnum.swift */,
-				3F442080277CC1C4002B730D /* InterstitialController.swift */,
-				3F442086277CCA08002B730D /* RewardedController.swift */,
-				3FFC143F2779EAB3000FC58A /* AdObject.swift */,
-				3F44207A277CB0A3002B730D /* Config.swift */,
+				3F0EC11627BBC51A00331700 /* My_Super_GameTests.swift */,
+			);
+			path = "My Super GameTests";
+			sourceTree = "<group>";
+		};
+		3F0EC11F27BBC51A00331700 /* My Super GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0EC12027BBC51A00331700 /* My_Super_GameUITests.swift */,
+				3F0EC12227BBC51A00331700 /* My_Super_GameUITestsLaunchTests.swift */,
+			);
+			path = "My Super GameUITests";
+			sourceTree = "<group>";
+		};
+		3F0EC12F27BBC56200331700 /* Adstronomic */ = {
+			isa = PBXGroup;
+			children = (
+				3F0EC13527BBC57700331700 /* AdEnum.swift */,
+				3F0EC13427BBC57700331700 /* AdObject.swift */,
+				3F0EC13227BBC57700331700 /* Adstronomic.swift */,
+				3F0EC13127BBC57700331700 /* Config.swift */,
+				3F0EC13327BBC57700331700 /* InterstitialController.swift */,
+				3F0EC13027BBC57700331700 /* RewardedController.swift */,
+				3F22DB6927BD8FB000D05292 /* Close.swift */,
 			);
 			path = Adstronomic;
 			sourceTree = "<group>";
@@ -107,13 +159,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FFC14242779DC20000FC58A /* My Super Game */ = {
+		3F0EC0FB27BBC51900331700 /* My Super Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FFC14392779DC21000FC58A /* Build configuration list for PBXNativeTarget "My Super Game" */;
+			buildConfigurationList = 3F0EC12627BBC51A00331700 /* Build configuration list for PBXNativeTarget "My Super Game" */;
 			buildPhases = (
-				3FFC14212779DC20000FC58A /* Sources */,
-				3FFC14222779DC20000FC58A /* Frameworks */,
-				3FFC14232779DC20000FC58A /* Resources */,
+				3F0EC0F827BBC51900331700 /* Sources */,
+				3F0EC0F927BBC51900331700 /* Frameworks */,
+				3F0EC0FA27BBC51900331700 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -121,25 +173,69 @@
 			);
 			name = "My Super Game";
 			productName = "My Super Game";
-			productReference = 3FFC14252779DC20000FC58A /* My Super Game.app */;
+			productReference = 3F0EC0FC27BBC51900331700 /* My Super Game.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3F0EC11127BBC51A00331700 /* My Super GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0EC12927BBC51A00331700 /* Build configuration list for PBXNativeTarget "My Super GameTests" */;
+			buildPhases = (
+				3F0EC10E27BBC51A00331700 /* Sources */,
+				3F0EC10F27BBC51A00331700 /* Frameworks */,
+				3F0EC11027BBC51A00331700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0EC11427BBC51A00331700 /* PBXTargetDependency */,
+			);
+			name = "My Super GameTests";
+			productName = "My Super GameTests";
+			productReference = 3F0EC11227BBC51A00331700 /* My Super GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F0EC11B27BBC51A00331700 /* My Super GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0EC12C27BBC51A00331700 /* Build configuration list for PBXNativeTarget "My Super GameUITests" */;
+			buildPhases = (
+				3F0EC11827BBC51A00331700 /* Sources */,
+				3F0EC11927BBC51A00331700 /* Frameworks */,
+				3F0EC11A27BBC51A00331700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0EC11E27BBC51A00331700 /* PBXTargetDependency */,
+			);
+			name = "My Super GameUITests";
+			productName = "My Super GameUITests";
+			productReference = 3F0EC11C27BBC51A00331700 /* My Super GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3FFC141D2779DC20000FC58A /* Project object */ = {
+		3F0EC0F427BBC51900331700 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					3FFC14242779DC20000FC58A = {
-						CreatedOnToolsVersion = 13.1;
+					3F0EC0FB27BBC51900331700 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3F0EC11127BBC51A00331700 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F0EC0FB27BBC51900331700;
+					};
+					3F0EC11B27BBC51A00331700 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F0EC0FB27BBC51900331700;
 					};
 				};
 			};
-			buildConfigurationList = 3FFC14202779DC20000FC58A /* Build configuration list for PBXProject "My Super Game" */;
+			buildConfigurationList = 3F0EC0F727BBC51900331700 /* Build configuration list for PBXProject "My Super Game" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,62 +243,108 @@
 				en,
 				Base,
 			);
-			mainGroup = 3FFC141C2779DC20000FC58A;
-			productRefGroup = 3FFC14262779DC20000FC58A /* Products */;
+			mainGroup = 3F0EC0F327BBC51900331700;
+			productRefGroup = 3F0EC0FD27BBC51900331700 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FFC14242779DC20000FC58A /* My Super Game */,
+				3F0EC0FB27BBC51900331700 /* My Super Game */,
+				3F0EC11127BBC51A00331700 /* My Super GameTests */,
+				3F0EC11B27BBC51A00331700 /* My Super GameUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FFC14232779DC20000FC58A /* Resources */ = {
+		3F0EC0FA27BBC51900331700 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FFC14352779DC21000FC58A /* LaunchScreen.storyboard in Resources */,
-				3F44208A277CCE92002B730D /* Adstronomic.jpg in Resources */,
-				3FFC14322779DC21000FC58A /* Assets.xcassets in Resources */,
-				3FFC14302779DC20000FC58A /* Main.storyboard in Resources */,
+				3F0EC10C27BBC51A00331700 /* LaunchScreen.storyboard in Resources */,
+				3F0EC10927BBC51A00331700 /* Assets.xcassets in Resources */,
+				3F0EC10727BBC51900331700 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EC11027BBC51A00331700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EC11A27BBC51A00331700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FFC14212779DC20000FC58A /* Sources */ = {
+		3F0EC0F827BBC51900331700 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FFC142D2779DC20000FC58A /* ViewController.swift in Sources */,
-				3FFC14292779DC20000FC58A /* AppDelegate.swift in Sources */,
-				3F14231E2785DCA7000E293E /* AdEnum.swift in Sources */,
-				3FFC142B2779DC20000FC58A /* SceneDelegate.swift in Sources */,
-				3FFC14402779EAB3000FC58A /* AdObject.swift in Sources */,
-				3FFC143D2779DC57000FC58A /* Adstronomic.swift in Sources */,
-				3F442087277CCA08002B730D /* RewardedController.swift in Sources */,
-				3F44207B277CB0A3002B730D /* Config.swift in Sources */,
-				3F442081277CC1C4002B730D /* InterstitialController.swift in Sources */,
+				3F0EC13927BBC57700331700 /* InterstitialController.swift in Sources */,
+				3F0EC10427BBC51900331700 /* ViewController.swift in Sources */,
+				3F0EC13B27BBC57700331700 /* AdEnum.swift in Sources */,
+				3F0EC13627BBC57700331700 /* RewardedController.swift in Sources */,
+				3F0EC13727BBC57700331700 /* Config.swift in Sources */,
+				3F0EC10027BBC51900331700 /* AppDelegate.swift in Sources */,
+				3F22DB6A27BD8FB000D05292 /* Close.swift in Sources */,
+				3F0EC13A27BBC57700331700 /* AdObject.swift in Sources */,
+				3F0EC10227BBC51900331700 /* SceneDelegate.swift in Sources */,
+				3F0EC13827BBC57700331700 /* Adstronomic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EC10E27BBC51A00331700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0EC11727BBC51A00331700 /* My_Super_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EC11827BBC51A00331700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0EC12327BBC51A00331700 /* My_Super_GameUITestsLaunchTests.swift in Sources */,
+				3F0EC12127BBC51A00331700 /* My_Super_GameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3F0EC11427BBC51A00331700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0EC0FB27BBC51900331700 /* My Super Game */;
+			targetProxy = 3F0EC11327BBC51A00331700 /* PBXContainerItemProxy */;
+		};
+		3F0EC11E27BBC51A00331700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0EC0FB27BBC51900331700 /* My Super Game */;
+			targetProxy = 3F0EC11D27BBC51A00331700 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		3FFC142E2779DC20000FC58A /* Main.storyboard */ = {
+		3F0EC10527BBC51900331700 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FFC142F2779DC20000FC58A /* Base */,
+				3F0EC10627BBC51900331700 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3FFC14332779DC21000FC58A /* LaunchScreen.storyboard */ = {
+		3F0EC10A27BBC51A00331700 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FFC14342779DC21000FC58A /* Base */,
+				3F0EC10B27BBC51A00331700 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -210,7 +352,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3FFC14372779DC21000FC58A /* Debug */ = {
+		3F0EC12427BBC51A00331700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +413,7 @@
 			};
 			name = Debug;
 		};
-		3FFC14382779DC21000FC58A /* Release */ = {
+		3F0EC12527BBC51A00331700 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -326,14 +468,13 @@
 			};
 			name = Release;
 		};
-		3FFC143A2779DC21000FC58A /* Debug */ = {
+		3F0EC12727BBC51A00331700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8S88Z4JBE6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My Super Game/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -346,7 +487,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.adstronomic.sdk.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adstronomic.sdk.mySuperGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,14 +495,13 @@
 			};
 			name = Debug;
 		};
-		3FFC143B2779DC21000FC58A /* Release */ = {
+		3F0EC12827BBC51A00331700 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8S88Z4JBE6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My Super Game/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -374,7 +514,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.adstronomic.sdk.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adstronomic.sdk.mySuperGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -382,28 +522,118 @@
 			};
 			name = Release;
 		};
+		3F0EC12A27BBC51A00331700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adstronomic.sdk.My-Super-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Super Game.app/My Super Game";
+			};
+			name = Debug;
+		};
+		3F0EC12B27BBC51A00331700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adstronomic.sdk.My-Super-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Super Game.app/My Super Game";
+			};
+			name = Release;
+		};
+		3F0EC12D27BBC51A00331700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adstronomic.sdk.My-Super-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Super Game";
+			};
+			name = Debug;
+		};
+		3F0EC12E27BBC51A00331700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adstronomic.sdk.My-Super-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Super Game";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FFC14202779DC20000FC58A /* Build configuration list for PBXProject "My Super Game" */ = {
+		3F0EC0F727BBC51900331700 /* Build configuration list for PBXProject "My Super Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FFC14372779DC21000FC58A /* Debug */,
-				3FFC14382779DC21000FC58A /* Release */,
+				3F0EC12427BBC51A00331700 /* Debug */,
+				3F0EC12527BBC51A00331700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FFC14392779DC21000FC58A /* Build configuration list for PBXNativeTarget "My Super Game" */ = {
+		3F0EC12627BBC51A00331700 /* Build configuration list for PBXNativeTarget "My Super Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FFC143A2779DC21000FC58A /* Debug */,
-				3FFC143B2779DC21000FC58A /* Release */,
+				3F0EC12727BBC51A00331700 /* Debug */,
+				3F0EC12827BBC51A00331700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0EC12927BBC51A00331700 /* Build configuration list for PBXNativeTarget "My Super GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0EC12A27BBC51A00331700 /* Debug */,
+				3F0EC12B27BBC51A00331700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0EC12C27BBC51A00331700 /* Build configuration list for PBXNativeTarget "My Super GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0EC12D27BBC51A00331700 /* Debug */,
+				3F0EC12E27BBC51A00331700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3FFC141D2779DC20000FC58A /* Project object */;
+	rootObject = 3F0EC0F427BBC51900331700 /* Project object */;
 }
