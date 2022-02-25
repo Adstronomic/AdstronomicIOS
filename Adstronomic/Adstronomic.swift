@@ -69,7 +69,7 @@ public class Adstronomic {
     }
     
     public static func fetchBanner() {
-        let link = self.api + "getAd?adType=banner&publisherCampaignId=" + self.campaignId
+        let link = self.api + "getAd?adType=banner&publisherCampaignId=" + self.campaignId + "&deviceID=" + UIDevice.current.identifierForVendor!.uuidString
         
         if let url = URL(string: link) {
             URLSession.shared.dataTask(with: url) { data, response, error -> Void in
@@ -109,12 +109,15 @@ public class Adstronomic {
             playerViewController.player = self.interstitialPlayer
             playerViewController.showsPlaybackControls = false
 
+            let close = Close(playerViewController: playerViewController)
+            playerViewController.setClose(close: close)
+
             self.interstitialViewController = self.viewController
             self.interstitialViewController.addChild(playerViewController)
             self.interstitialViewController.view.addSubview(playerViewController.view)
             self.interstitialPlayer.play()
 
-            self.interstitialViewController.view.addSubview(Close(playerViewController: playerViewController))
+            self.interstitialViewController.view.addSubview(close)
 
             fetchInterstitial()
         } else {
@@ -123,7 +126,7 @@ public class Adstronomic {
     }
     
     public static func fetchInterstitial() {
-        let link = self.api + "getAd?adType=interstitial&publisherCampaignId=" + self.campaignId
+        let link = self.api + "getAd?adType=interstitial&publisherCampaignId=" + self.campaignId + "&deviceID=" + UIDevice.current.identifierForVendor!.uuidString
         
         if let url = URL(string: link) {
             URLSession.shared.dataTask(with: url) { data, response, error -> Void in
@@ -157,12 +160,15 @@ public class Adstronomic {
             playerViewController.player = self.rewardedPlayer
             playerViewController.showsPlaybackControls = false
 
+            let close = Close(playerViewController: playerViewController)
+            playerViewController.setClose(close: close)
+            
             self.rewardedViewController = self.viewController
             self.rewardedViewController.addChild(playerViewController)
             self.rewardedViewController.view.addSubview(playerViewController.view)
             self.rewardedPlayer.play()
 
-            self.rewardedViewController.view.addSubview(Close(playerViewController: playerViewController))
+            self.rewardedViewController.view.addSubview(close)
 
             fetchRewarded()
         } else {
@@ -171,7 +177,7 @@ public class Adstronomic {
     }
     
     public static func fetchRewarded() {
-        let link = self.api + "getAd?adType=rewarded&publisherCampaignId=" + self.campaignId
+        let link = self.api + "getAd?adType=rewarded&publisherCampaignId=" + self.campaignId + "&deviceID=" + UIDevice.current.identifierForVendor!.uuidString
         
         if let url = URL(string: link) {
             URLSession.shared.dataTask(with: url) { data, response, error -> Void in
@@ -198,8 +204,8 @@ public class Adstronomic {
     }
 
     private static func adVisualized(adEnum: AdEnum, advertiserCampaignId: String) {
-        let link = self.api + "adVisualized?adType=" + adEnum.get + "&publisherCampaignId=" + self.campaignId + "&advertiserCampaignId=" + advertiserCampaignId
-
+        let link = self.api + "adVisualized?adType=" + adEnum.get + "&publisherCampaignId=" + self.campaignId + "&advertiserCampaignId=" + advertiserCampaignId + "&deviceID=" + UIDevice.current.identifierForVendor!.uuidString
+        
         if let url = URL(string: link) {
             URLSession.shared.dataTask(with: url).resume()
         } else {
@@ -208,23 +214,23 @@ public class Adstronomic {
     }
     
     @objc private static func redirect(sender: UITapGestureRecognizer) {
-       let link = self.api + "click?clicked=true&type=banner&publisherCampaignId=" + self.campaignId + "&advertiserCampaignId=" + self.bannerAdBuffer.advertiserCampaignId
+        let link = self.api + "adClicked?type=banner&publisherCampaignId=" + self.campaignId + "&advertiserCampaignId=" + self.bannerAdBuffer.advertiserCampaignId + "&deviceID=" + UIDevice.current.identifierForVendor!.uuidString
+        
+        if let url = URL(string: link) {
+            URLSession.shared.dataTask(with: url).resume()
+        } else {
+            print("Incorrect URL")
+        }
        
-       if let url = URL(string: link) {
-           URLSession.shared.dataTask(with: url).resume()
-       } else {
-           print("Incorrect URL")
-       }
-       
-       if let url = URL(string: self.bannerAdBuffer.redirection) {
-           UIApplication.shared.open(url)
-       } else {
-           print("Unable to Redirect")
-       }
+        if let url = URL(string: self.bannerAdBuffer.redirection) {
+            UIApplication.shared.open(url)
+        } else {
+            print("Unable to Redirect")
+        }
     }
     
     public static func getInterstitialClick() -> String {
-        return self.api + "click?clicked=true&type=interstitial&publisherCampaignId=" + self.campaignId + "&advertiserCampaignId=" + self.interstitialAdBuffer.advertiserCampaignId
+        return self.api + "adClicked?type=interstitial&publisherCampaignId=" + self.campaignId + "&advertiserCampaignId=" + self.interstitialAdBuffer.advertiserCampaignId + "&deviceID=" + UIDevice.current.identifierForVendor!.uuidString
     }
     
     public static func getInterstitialRedirection() -> String {
@@ -232,7 +238,7 @@ public class Adstronomic {
     }
 
     public static func getRewardedClick() -> String {
-        return self.api + "click?clicked=true&type=rewarded&publisherCampaignId=" + self.campaignId + "&advertiserCampaignId=" + self.rewardedAdBuffer.advertiserCampaignId
+        return self.api + "adClicked?type=rewarded&publisherCampaignId=" + self.campaignId + "&advertiserCampaignId=" + self.rewardedAdBuffer.advertiserCampaignId + "&deviceID=" + UIDevice.current.identifierForVendor!.uuidString
     }
     
     public static func getRewardedRedirection() -> String {

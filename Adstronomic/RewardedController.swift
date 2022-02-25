@@ -9,6 +9,12 @@ import AVKit
 
 class RewardedController: AVPlayerViewController {
     
+    private var close: Close? = nil
+    
+    func setClose(close: Close) {
+        self.close = close;
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let link = Adstronomic.getRewardedClick()
         
@@ -23,6 +29,8 @@ class RewardedController: AVPlayerViewController {
         } else {
             print("Unable to Redirect")
         }
+        
+        self.close?.close()
     }
     
 }

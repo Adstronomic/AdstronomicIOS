@@ -9,6 +9,12 @@ import AVKit
 
 class InterstitialController: AVPlayerViewController {
     
+    private var close: Close? = nil
+    
+    func setClose(close: Close) {
+        self.close = close;
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let link = Adstronomic.getInterstitialClick()
         
@@ -23,6 +29,8 @@ class InterstitialController: AVPlayerViewController {
         } else {
             print("Unable to Redirect")
         }
+        
+        self.close?.close()
     }
     
 }
