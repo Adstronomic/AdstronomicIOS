@@ -34,7 +34,7 @@ Commencez par choisir "iOS" dans le menu supérieur, puis sélectionnez "App". V
 
 <img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicIOS/master/Read%20Me/2.png" alt="Adstronomic-iOS-2" style="zoom:25%;" />
 
-Comme vous partez d'un projet vide, vous allez devoir ajouter manuellement le SDK. Pour cela, clônez ce projet, cherchez le dossier "Adstronomic", et copiez son contenu, soit six fichiers. Retournez sur Xcode, et créez un nouveau groupe (J'ai gardé le nom "Adstronomic", mais vous pouvez le renommer) dans votre projet, dans lequel vous collez ces six fichiers. Notez que le copier-coller peut ne pas marcher dans certains cas, et vous devrez alors le remplacer par un glisser-déposer.
+Comme vous partez d'un projet vide, vous allez devoir ajouter manuellement le SDK. Pour cela, [téléchargez-le,](https://drive.google.com/file/d/1dYH_aGvQKuRva4NY3nlRSmuRdtMMQqJ8/view?usp=sharing) et copiez son contenu. Retournez sur Xcode, et créez un nouveau groupe (J'ai gardé le nom "Adstronomic", mais vous pouvez le renommer) dans votre projet, dans lequel vous collerez les fichiers que vous venez de télécharger. Notez que le copier-coller peut ne pas marcher dans certains cas, et vous devrez alors le remplacer par un glisser-déposer.
 
 Vous devriez normalement avoir une arborescence comme ceci :
 

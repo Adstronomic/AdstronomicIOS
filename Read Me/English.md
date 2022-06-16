@@ -34,7 +34,7 @@ Start by choosing "iOS" in the top menu, then select "App". You can use any name
 
 <img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicIOS/master/Read%20Me/2.png" alt="Adstronomic-iOS-2" style="zoom:25%;" />
 
-As you are starting from an empty project, you will have to add the SDK manually. To do this, clone this project, find the "Adstronomic" folder, and copy its contents, which are six files. Go back to Xcode, and create a new group (I kept the name "Adstronomic", but you can rename it) in your project, into which you paste these six files. Note that copy and paste may not work in some cases, and you will have to replace it with drag and drop.
+As you start from an empty project, you will have to add the SDK manually. To do this, [download it,](https://drive.google.com/file/d/1dYH_aGvQKuRva4NY3nlRSmuRdtMMQqJ8/view?usp=sharing) and copy its contents. Go back to Xcode, and create a new group (I kept the name "Adstronomic", but you can rename it) in your project, in which you will paste the files you just downloaded. Note that copy and paste may not work in some cases, and you will have to replace it with drag and drop.
 
 You should normally have a tree structure like this :
 
