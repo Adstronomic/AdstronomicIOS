@@ -14,7 +14,7 @@ Adstronomic is an advertising platform that allows you to leverage and synthesiz
 
 Each of these tools is intuitive, so you can focus on what matters most to you : The success of your project. In this guide, we will focus on the third point : Installing and using the SDK, here in its iOS version. 📱
 
-[See the Installation Guide](https://github.com/Adstronomic/AdstronomicIOS/blob/master/Read%20Me/English.md)
+[See the Installation Guide](https://flrn.gitbook.io/adstronomic/adstronomic-ios/adstronomic-installation-guide-ios)
 
 
 
@@ -30,4 +30,4 @@ Adstronomic est une plateforme publicitaire vous permettant d'exploiter et de sy
 
 Chacun de ces outil est intuitif, afin de vous permettre de vous concentrer sur ce qui compte le plus pour vous : La réussite de votre projet. Dans ce guide, nous allons nous concentrer sur le troisième point : L'installation et l'utilisation du SDK, ici dans sa version iOS. 📱
 
-[Consultez le Guide d'Installation](https://github.com/Adstronomic/AdstronomicIOS/blob/master/Read%20Me/French.md)
+[Consultez le Guide d'Installation](https://flrn.gitbook.io/adstronomic/adstronomic-ios/adstronomic-guide-dinstallation-ios)

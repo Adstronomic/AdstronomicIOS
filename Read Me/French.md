@@ -1,4 +1,4 @@
-## [**🇺🇸 ENGLISH VERSION AVAILABLE 🇺🇸**](https://github.com/Adstronomic/AdstronomicIOS/blob/master/Read%20Me/English.md)
+## [**🇺🇸 ENGLISH VERSION AVAILABLE 🇺🇸**](https://flrn.gitbook.io/adstronomic/adstronomic-ios/adstronomic-installation-guide-ios)
 
 
 

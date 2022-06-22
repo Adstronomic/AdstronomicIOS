@@ -1,4 +1,4 @@
-## [**🇫🇷 VERSION FRANÇAISE DISPONIBLE 🇫🇷**](https://github.com/Adstronomic/AdstronomicIOS/blob/master/Read%20Me/French.md)
+## [**🇫🇷 VERSION FRANÇAISE DISPONIBLE 🇫🇷**](https://flrn.gitbook.io/adstronomic/adstronomic-ios/adstronomic-guide-dinstallation-ios)
 
 
 
